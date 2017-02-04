@@ -4,8 +4,6 @@ export default function reducer(
   },
   action ) {
   
-  console.log("Cart init", state);
-
   switch( action.type ) {
     case "CART_ADD" :
       let id = action.payload.itemId;
